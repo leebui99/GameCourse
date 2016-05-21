@@ -95,7 +95,7 @@ Angel.prototype.update = function () {
         console.log("right");
        this.xPosition = this.xPosition + 1;
        //console.log("CHECK" + this.xPosition);
-       if (this.xPosition >= this.game.position.x){
+       if (this.xPosition > this.game.position.x){
            this.right = false;
            this.game.click = false;
            
